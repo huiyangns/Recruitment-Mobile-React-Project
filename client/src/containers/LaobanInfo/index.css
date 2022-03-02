@@ -1,0 +1,9 @@
+.LaobanInfo-container .nav {
+    background-color: var(--adm-color-primary);
+    color:#fff;
+    margin-top: 0px;
+}
+
+.LaobanInfo-container .verticalSpace {
+    --gap-vertical: 0px;
+}

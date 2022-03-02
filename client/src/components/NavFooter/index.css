@@ -1,0 +1,7 @@
+.navfooter-container {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+}

@@ -1,0 +1,14 @@
+.avatarverticalSpace {
+    --gap-vertical: 4px;
+}
+
+.avatarList {
+    padding-top: 50px;
+}
+.avatarList .adm-list-header {
+    margin-top: 10px;
+}
+
+.avatarList img {
+    margin-bottom: 2;
+}

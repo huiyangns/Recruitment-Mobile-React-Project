@@ -1,0 +1,8 @@
+
+.main-container .nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: var(--adm-color-primary);
+    color:#fff;
+}

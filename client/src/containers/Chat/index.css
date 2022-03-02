@@ -1,0 +1,29 @@
+.chat-container .myMsg {
+    text-align: right;
+}
+.chat-container .nav {
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    width: 100%;
+    background-color: var(--adm-color-primary);
+    color:#fff;
+}
+
+.chat-container .chatbody {
+    margin: 50px 5px;
+    font-size: 18px!important;
+}
+
+.chat-container .showEmoji{
+    margin-bottom: 150px;
+}
+.chat-container .adm-list-item-content-extra {
+    padding-top: 10px;
+}
+.chat-container .msgFooter {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+.DashenInfo-container .nav {
+    background-color: var(--adm-color-primary);
+    color:#fff;
+}
+
+.DashenInfo-container .verticalSpace {
+    --gap-vertical: 0px;
+}
