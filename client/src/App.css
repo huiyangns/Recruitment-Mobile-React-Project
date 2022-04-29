@@ -4,11 +4,11 @@
 }
 
 :root:root {
-    --adm-color-primary: #1cae82;
-  }
+  --adm-color-primary: #1cae82;
+}
 
-  .errMsg {
-    text-align: center;
-    font-size: 18px;
-    color:red
+.errMsg {
+  text-align: center;
+  font-size: 18px;
+  color: red;
 }

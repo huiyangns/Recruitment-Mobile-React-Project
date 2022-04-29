@@ -64,7 +64,12 @@ class Chat extends Component {
       const myId = this.props.user._id
       const {users, chatMsgs} = this.props.msgList
       
-      if (!users[myId]){
+      /* 
+        refresh, so data in redux will be cleaned. Because chat component is Main's child component, 
+        so render main first. And because _id is undefined, getUserAsyncAction() will be called 
+        and getMsgList simultaneously.
+       */
+      if (!users[myId]){ 
           return null
       }
       const friendId = this.props.match.params.userid

@@ -53,7 +53,7 @@ class Main extends Component {
       icon: <UserOutline/>,
       text: 'User',
       }
-  ]
+  ] 
   componentDidMount() {
     const userid = Cookies.get('userid')
     const {_id} = this.props.user

@@ -4,6 +4,7 @@
 1. This project is a recruitment mobile SPA , including front-end and back-end parts.
 2. Front end part is responsible for rendering data, while back end is in charge of CRUD.
 3. It includes user registration/login, genius/boss list, real-time chat and other modules.
+4. It conducts automation test to this project by using Cypress. Besides UI automation test, it also perform assertions on the properties of XHR objects.
 
 ## Project Feature
 
@@ -32,6 +33,9 @@ This is a full stack MERN project.
 1. axios
 2. promise/async/await
 3. postman
+### Automation test framework
+
+1. Cypress
 
 ### Modular Design
 
